@@ -1,0 +1,29 @@
+.uk-label-muted{
+    background-color: #555 !important;
+    color: #eee !important;
+}
+
+.tm-text-small{
+    font-size: 15px;
+}
+
+.tm-text-smaller{
+    font-size: 12px !important;
+}
+
+.tm-text-muted{
+    color: #555 !important;
+}
+
+.tm-text-white{
+    color: #fff;
+}
+
+.tm-height-small{
+    height: 180px;
+}
+
+.tm-outline-primary{
+    border: 1px solid #1e87f0;
+    background-color: #fff !important;
+}
