@@ -5,7 +5,8 @@ import { useState, useEffect } from "react";
 
 const toExclude = [
     LINKS.SIGNUP,
-    LINKS.LOGIN
+    LINKS.LOGIN,
+    "hospital/preview"
 ].join("|")
 
 

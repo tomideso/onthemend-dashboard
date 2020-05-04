@@ -11,7 +11,7 @@ const Banner = () => {
                     uk-panel
                     Text
                    `}
-                data-src='Image/banner.jpg' uk-img="">
+                data-src='/Image/banner.jpg' uk-img="">
                     <div className="uk-margin-top uk-margin-large-left">
                     <div className="uk-text-large uk-text-bold">Spring Field Medical Center</div>
                 <div className="uk-text-small">Forest Fair Shopping Village Shop 3/120 Woogaroo street Forest Lake, QLD 4078</div>

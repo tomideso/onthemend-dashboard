@@ -5,13 +5,13 @@ const TitleGrid = () => {
         <div className="uk-grid-small uk-child-width-1-3@m" uk-grid="">
             <div>
                 <div>
-                    <div class="uk-grid-small uk-flex-middle" uk-grid="">
-                        <div class="uk-width-auto">
+                    <div className="uk-grid-small uk-flex-middle" uk-grid="">
+                        <div className="uk-width-auto">
                         <img className="banner" data-src={"/Image/Logo.svg"}  width="40" height="40" alt="" uk-img="" />
 
                             {/* <img class="uk-border-circle" width="40" height="40" src="/Image/Logo.svg" /> */}
                         </div>
-                        <div class="uk-width-expand">
+                        <div className="uk-width-expand">
                             <div className="uk-text-bold uk-text-emphasis">Spring Field Medical Center</div>
                             <a href="http://www.springfieldmedical.com.au" target="_blank" className="uk-text-small uk-">
                                 www.springfieldmedical.com.au
