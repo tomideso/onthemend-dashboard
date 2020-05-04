@@ -29,7 +29,7 @@ const Settings = ({value,children}) => {
 
                     <Link href="/hospital/preview" replace>
                         <a className="uk-button uk-text-capitalize uk-button-default" style={{ backgroundColor: "#fff5d5" }}>
-                            Preview Page
+                        <i className="fa fa-eye" aria-hidden="true"></i>&nbsp;   Preview Page
                         </a>
                     </Link>
                 </div>

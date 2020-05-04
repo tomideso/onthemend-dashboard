@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Link from 'next/link'
 
 
 export default function SideBar({ hide = false }) {
@@ -41,7 +41,7 @@ export default function SideBar({ hide = false }) {
                     <ul className="uk-nav uk-nav-default tm-nav">
                         {/* <li className="uk-nav-header">Billing</li> */}
                         <li className="uk-active"><a href="#">Billing</a></li>
-                        <li className="uk-active"><a href="#">Setting</a></li>
+                        <li className="uk-active"><Link href="/settings"><a>Setting</a></Link></li>
                         <li className="uk-active"><a href="#">Messaging</a></li>
                         <li className="router-link-exact-active uk-active"><a href="#">Monitoring</a></li>
                         <li className="uk-active">
@@ -54,7 +54,6 @@ export default function SideBar({ hide = false }) {
                 </div>
             </>
         )
-
 
     )
 }

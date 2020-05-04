@@ -28,6 +28,9 @@
     background-color: #fff !important;
 }
 
+.tm-table-stripe{
+    margin-top: 5px!important;
+}
 .tm-table-stripe tr{
     border:1px solid #e5e5e5;
 }
@@ -36,6 +39,15 @@
     .tm-table-stripe>*>tr>*:not(:last-child){
         border-right:1px solid #e5e5e5;
     }
+
+    .tm-table-stripe *>td{
+        text-align: left;
+    }
+
+    .tm-table-stripe *>th{
+        text-align: left!important;
+    }
+    
 }
 
 html,
