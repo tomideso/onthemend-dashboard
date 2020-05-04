@@ -4,10 +4,11 @@
       "allowSyntheticDefaultImports": false,
       "baseUrl": "./",
       "paths": {
-        "Components/*": ["Components/*"],
+        "components/*": ["components/*"],
         "Public/*": ["public/*"],
         "utility/*": ["utility/*"],
+        "hooks/*": ["hooks/*"],
       }
     },
     "exclude": ["node_modules", "dist",".next","pages"]
-  }
+}

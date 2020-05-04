@@ -26,8 +26,10 @@ module.exports = withImages({
     webpack(config, options) {
 
         Object.assign(config.resolve.alias, {
-            Components: path.resolve(__dirname, 'Components'),
-            public: path.resolve(__dirname, 'public')
+            components: path.resolve(__dirname, 'components'),
+            public: path.resolve(__dirname, 'public'),
+            utility: path.resolve(__dirname, 'utility'),
+            hooks: path.resolve(__dirname, 'hooks'),
         })
 
         return config

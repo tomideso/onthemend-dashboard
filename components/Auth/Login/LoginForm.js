@@ -16,7 +16,6 @@ const LoginForm = ({
 
         <div className="uk-box-shadow-small uk-padding-small uk-background-default uk-border-rounded">
             <h4 className="">Login To Your Account</h4>
-            <a href="" uk-icon="icon: heart"></a>
             <Form className={["uk-form-stacked", classes.FormPadding].join(" ")}>
 
                 <div className="uk-margin">
