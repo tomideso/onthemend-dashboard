@@ -17,13 +17,11 @@ const Tabs = ({ value, children }) => {
               style={{ display: "none" }}
             />
             <label htmlFor="male">
-              {/* <Link href="#practice-profile"> */}
               <a
                 // href="#practice-profile"
                 className="uk-button uk-text-capitalize uk-button-primary">
                 General Practioner
               </a>
-              {/* </Link> */}
             </label>
           </div>
 
@@ -35,14 +33,12 @@ const Tabs = ({ value, children }) => {
               value="1"
               style={{ display: "none" }}
             />
-            <label htmlFor="sub">
-              {/* <Link href="#subscription"> */}
+            <label htmlFor="hospital-emergency">
               <a
                 // href="#subscription"
                 className="uk-button uk-text-capitalize uk-button-primary">
                 Hospital Emergency
               </a>
-              {/* </Link> */}
             </label>
           </div>
 
@@ -55,13 +51,11 @@ const Tabs = ({ value, children }) => {
               style={{ display: "none" }}
             />
             <label htmlFor="covid">
-              {/* <Link href="#subscription"> */}
               <a
                 // href="#subscription"
                 className="uk-button uk-text-capitalize uk-button-primary">
                 COVID 19 Clinic
               </a>
-              {/* </Link> */}
             </label>
           </div>
 
