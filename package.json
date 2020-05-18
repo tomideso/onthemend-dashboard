@@ -1,12 +1,12 @@
 {
-  "name": "learn-starter",
+  "name": "doctor-mend",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "heroku-postbuild": "npm run build"
+    "heroku-postbuild": "npm install --only=dev --no-shrinkwrap && npm run build"
   },
   "dependencies": {
     "axios": "^0.19.2",
