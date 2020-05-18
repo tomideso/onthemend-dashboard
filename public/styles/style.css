@@ -19,8 +19,21 @@
     color: #fff;
 }
 
+.tm-background-white{
+    background-color: #fff!important;
+}
+
 .tm-height-small{
     height: 180px;
+}
+
+.tm-padding-small{
+    padding:6px 15px;
+}
+
+.tm-outline-muted{
+    border: 1px solid #e5e5e5 !important;
+    /* background-color: #fff !important; */
 }
 
 .tm-outline-primary{

@@ -1,10 +1,10 @@
 import React from "react";
-import Preview from "components/Preview/Preview";
+import Doctor from "components/Doctor/Grid.js";
 
 const index = () => {
   return (
     <div>
-      <Preview />
+      <Doctor />
     </div>
   );
 };
