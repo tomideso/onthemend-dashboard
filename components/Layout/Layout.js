@@ -17,7 +17,8 @@ const Layout = ({ children, pathname }) => {
   const layoutWidth = hideSideBar ? "0" : "240px";
 
   useEffect(() => {
-    const hideSideBar = new RegExp(`^(${toExclude})$`, "i").test(pathname);
+    console.log(pathname);
+    const hideSideBar = new RegExp(`(${toExclude})$`, "i").test(pathname);
     setHideSideBar(hideSideBar);
   }, [pathname]);
 
